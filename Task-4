@@ -1,0 +1,19 @@
+Code Refactor
+
+Convert this old JS code to ES6:
+
+var user = {name: "Aman", age: 22};
+function greet(user){
+return "Hello " + user.name + ", you are " + user.age + " years old.";
+}
+
+console.log(greet(user));
+const user = { name: "Aman", age: 22 };
+const greet = (user) => {
+  return `Hello ${user.name}, you are ${user.age} years old.`;
+};
+console.log(greet(user));
+
+
+Output:-
+const greet = user => `Hello ${user.name}, you are ${user.age} years old.`;
