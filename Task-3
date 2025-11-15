@@ -1,0 +1,13 @@
+emplate Literals
+const name = "Priya";
+const course = "JavaScript Mastery";
+// Use template literal to log: "Hello Priya! Welcome to JavaScript Mastery."
+
+
+const name = "Priya";
+const course = "JavaScript Mastery";
+console.log(`Hello ${name}! Welcome to ${course}.`);
+
+
+Output:-
+Hello Priya! Welcome to JavaScript Mastery.
