@@ -1,0 +1,27 @@
+Spread/Rest Practice
+
+const fruits = ["apple", "banana"];
+
+const moreFruits = ["cherry", "mango"];
+
+// Merge both arrays using spread
+
+// Create a function that takes any number of fruits and prints them
+
+1. Merge boh arrays using spread:
+const fruits = ["apple", "banana"];
+const moreFruits = ["cherry", "mango"];
+
+const allFruits = [...fruits, ...moreFruits];
+console.log(allFruits);
+
+2.Function that takes any number of fruits:
+function printFruits(...items) {
+    console.log("Fruits:", items);
+}
+printFruits("apple", "banana", "mango", "pineapple");
+
+
+Output:-
+[ 'apple', 'banana', 'cherry', 'mango' ]
+Fruits: [ 'apple', 'banana', 'mango', 'pineapple' ]
