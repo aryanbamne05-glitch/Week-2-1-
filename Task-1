@@ -1,0 +1,18 @@
+Array/Object Destructuring
+const car = { brand: "Tesla", model: "Model 3", color: "white" };
+// Extract brand and model using destructuring
+// Log them to the console.                             
+
+
+code:-
+const car = { brand: "Tesla", model: "Model 3", color: "white" };
+// Extract brand and model using destructuring
+const { brand, model } = car;
+// Log them to the console
+console.log(brand);
+console.log(model);
+
+
+Output:-
+Tesla
+Model 3
